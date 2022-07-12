@@ -2,7 +2,7 @@
 
 import unittest
 
-from .model.base import Base
+from model.base import Base
 class TestBase(unittest.TestCase):
   def test_instantiation(self):
     instance_1 = Base()
